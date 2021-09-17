@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ECEFF1;
+}
+
+.customContainer {
+    padding: 10px;
+}
+
+.novaTarefa {
+    margin-bottom: 10px;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    background: #FFEE58;
+    color: #424242;
+}
+
+    .novaTarefa:hover {
+        border: none;
+        background: #FFEB3B;
+    }
+
+.buttonComplete {
+    background: #66BB6A;
+}
+
+.buttonEdit {
+    background: #D4E157;
+}
+
+.buttonDelete {
+    background: #FF7043;
+}
+
+.buttonArchive {
+    background: #29B6F6;
+}
+
+.buttonComplete:hover {
+    background: #4CAF50;
+}
+
+.buttonEdit:hover {
+    background-color: #CDDC39;
+}
+
+.buttonDelete:hover {
+    background: #FF5722;
+}
+
+.buttonArchive:hover {
+    background: #03A9F4;
+}

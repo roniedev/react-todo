@@ -1,0 +1,14 @@
+.tasks {
+    display: flex;
+    justify-content: initial;
+    flex-direction: row;
+    background: #CFD8DC;
+    width: 100%;
+    flex-flow: wrap;
+    border-radius: 5px;
+}
+
+.tasks h4 {
+    margin: 30px;
+    font-size: 20px;
+}

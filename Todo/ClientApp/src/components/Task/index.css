@@ -1,0 +1,50 @@
+﻿.task {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 5px;
+    background: #FFF176;
+    width: 22%;
+}
+
+    .task:hover {
+        background: #FFEE58;
+        cursor: pointer;
+    }
+
+.taskTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px #FFD600 solid;
+    color: #424242;
+}
+
+.taskDescription {
+    font-size: 14px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    color: #424242;
+}
+
+.taskActions {
+    display: flex;
+    justify-content: right;
+    flex-flow: wrap;
+}
+
+    .taskActions button {
+        margin: 5px;
+        border: none;
+        padding: 2.5px 5px 2.5px 5px;
+        border-radius: 5px;
+        font-size: 13px;
+        color: #FFF;
+    }
+
+.taskCompleted {
+    text-decoration: line-through;
+}
